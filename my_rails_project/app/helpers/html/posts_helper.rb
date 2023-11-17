@@ -1,0 +1,2 @@
+module Html::PostsHelper
+end

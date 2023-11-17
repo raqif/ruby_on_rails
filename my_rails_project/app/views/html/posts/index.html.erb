@@ -1,0 +1,19 @@
+<!-- app/views/html/posts/index.html.erb -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Posts (HTML)</title>
+</head>
+<body>
+
+  <h1>Posts (HTML)</h1>
+
+  <ul>
+    <% @posts.each do |post| %>
+      <li><strong><%= post.title %></strong>: <%= post.content %></li>
+    <% end %>
+  </ul>
+
+</body>
+</html>
